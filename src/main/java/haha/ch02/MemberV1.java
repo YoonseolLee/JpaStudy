@@ -1,13 +1,13 @@
-package chap02;
+package haha.ch02;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="MEMBER")
-public class Member {
+//@Entity
+//@Table(name="MEMBER")
+public class MemberV1 {
 
     @Id
     @Column(name = "ID")
