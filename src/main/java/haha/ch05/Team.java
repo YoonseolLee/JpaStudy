@@ -3,6 +3,7 @@ package haha.ch05;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Team {
@@ -12,14 +13,7 @@ public class Team {
     private String id;
     private String name;
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
+    @OneToMany(mappedBy = "team")
     public String getName() {
         return name;
     }

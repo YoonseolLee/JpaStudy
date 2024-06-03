@@ -10,12 +10,11 @@ public class Member {
     private String id;
     private String username;
 
-    // 연관관계 매핑
+
     @ManyToOne
     @JoinColumn(name = "TEAM_ID")
     private Team team;
 
-    // 연관관계 설정
     public void setTeam(Team team) {
         this.team = team;
     }

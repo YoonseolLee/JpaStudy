@@ -1,4 +1,4 @@
-package haha.ch05;
+package haha.ch06;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
